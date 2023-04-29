@@ -1,19 +1,19 @@
 /* Cascading Sheet Style for White Water Adventure */
 /* Font style for webpage */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 :root{
     --primary-color: #58, 71, 152;
     --secondary-color: #131, 133, 163;
     --accent1-color: #107, 109, 126;
     --accent2-color: #28, 31, 98;
 
-    --heading-font: 'Rocksalt'serif; 
-    --paragraph-font: 'Rocksalt'serif;
+    --heading-font: 'Rocksalt', cursive; 
+    --paragraph-font: 'Rocksalt', cursive;
 
-    --nav-background-color: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX
+    --nav-background-color: var(--accent2-color);
+    --nav-link-color: blue;
+    --nav-hover-link-color: green;
+    --nav-hover-background-color:var(--secondary-color);
 }
 
 body {
