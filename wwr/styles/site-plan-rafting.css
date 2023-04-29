@@ -41,7 +41,7 @@ nav {
 nav a {
     display: block;
     color: var(--navlink-color);
-    text-decoration: naone;
+    text-decoration: none;
     padding: 1rem;
 }
 
