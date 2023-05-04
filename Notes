@@ -1,0 +1,19 @@
+Basic Html Structure
+<!-- <!DOCTYPE html>
+<!-- <html lang="en-US"> -->
+    <!-- <head> -->
+     <!-- <meta charset="utf-8"> -->
+    <!-- <meta name="viewport" content="width=device-width,inital-scale=1.0"> -->
+     <!-- <title>Logan Wall | WDD 130</title> -->
+
+     <!-- <meta name="description" content="This the my Home Page for WD130 for use in practicing priciples I learn and completing assignments."> -->
+     <!-- <meta name="author" content="Logan Wall"> -->
+     <!-- <link rel="stylesheet" href="styles/styles.css">  -->
+<!-- </head> -->
+<!-- <body> -->
+    <!-- <header> -->
+        <!-- <nav> -->
+       
+        <!-- </nav> -->
+    <!-- </header> -->
+    
