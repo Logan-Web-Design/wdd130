@@ -1,0 +1,24 @@
+/* CSS for About page */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+:root{
+    --primary-color: #58, 71, 152;
+    --secondary-color: #131, 133, 163;
+    --accent1-color: #107, 109, 126;
+    --accent2-color: #28, 31, 98;
+
+    --heading-font: 'Rock Salt', cursive; 
+    --paragraph-font: 'Rock Salt', cursive;
+    --heading-font-color: red; 
+    --paragraph-font-color: purple;
+
+
+    --nav-background-color: var(--accent2-color);
+    --nav-link-color: blue;
+    --nav-hover-link-color: green;
+    --nav-hover-background-color:var(--secondary-color);
+}
+a {
+  text-decoration: none;
+  color: black;
+
+}
