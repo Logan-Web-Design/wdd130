@@ -22,3 +22,20 @@ a {
   color: black;
 
 }
+ nav {
+    text-decoration: none;
+    text-decoration-color: blue;
+ }
+ .hero img{
+    display: block;
+    width: 100%;
+    height: auto; 
+    position: relative;
+ }
+
+
+
+ article img {
+
+    float: right;
+ }
