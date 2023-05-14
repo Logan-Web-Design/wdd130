@@ -19,12 +19,17 @@
 }
 a {
   text-decoration: none;
-  color: black;
+  color: blue;
 
 }
  nav {
+   display: flex;
+   justify-content: right;
+   text-align: right;
     text-decoration: none;
     text-decoration-color: blue;
+    margin: 1rem;
+
  }
  .hero img{
     display: block;
@@ -38,4 +43,20 @@ a {
  article img {
 
     float: right;
+ }
+
+ header {
+   margin: trem auto;
+   display: grid;
+   grid-template-columns: 120px, 1fr, 2fr;
+   align-items: center;
+   border-bottom: 1px solid black;
+   max-width: 1000px;
+
+ }
+
+ figure {
+  display: flex;
+  justify-content: space-around;
+
  }
