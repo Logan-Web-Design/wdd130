@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta chartset="utf-8">
+  <meta name="viewport" content="width=device-width, nital scale=1">
+  <link rel="stylesheet" href="styles/poll-form.css">
+  <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body> 
+<header> 
+    <h1>WDD 130 | Logan Wall | HTML Form - User Poll </h1>
+</header>
+<main>
+  <form>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <!-- form elements go here -->
+        <div class="form-item collumn2">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname">
+        </div>
+        <div class="form-item collumn2">
+        <label for="email">Email:</label>
+        <input type="email" id="usermail" name="usermail">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Questions</legend>
+        <!-- form elements go here -->
+        <div class="form-item collumn1">
+        <label for="browser">What is your favorite browser?</label>
+        <select id="browser" name="browser">
+            <option value="chrome">Chrome</option>
+            <option value="firefox">Firefox</option>
+            <option value="safari">Safari</option>
+            <option value="eddge">Edge</option>
+            <option value="brave">Brave</option>
+            <option value="other">Other</option>
+        </select>
+        </div>
+        <div class="form-item collumn1">
+        <label for="pet">Do you have a household pet?</label>
+        <input type="checkbox" id="pet" name="pet">
+        </div>
+        <label for="fedback">List the places you have lived:</label>
+        <textarea id="feedback" name="feedback" rows="4" placeholder="Hooper Utah, Tucson Arizona, Plain City Utah, Taylor Utah">></textarea>
+    </fieldset>
+    <button type="submit">Submit Poll</button>
+  </form>
+</main>
+<footer>
+    <p>©️2023 | HTML Form - User Poll Activity | Logan Wall</p>
+</footer>
+</body>
+</html>

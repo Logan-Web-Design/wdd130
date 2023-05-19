@@ -16,4 +16,12 @@ Basic Html Structure
        
         <!-- </nav> -->
     <!-- </header> -->
-    
+    WEEK 05 
+    The components of forms
+    The typical form has the following five components:
+
+Structure: This includes the order of fields, the form’s appearance on the page and the logical connections between multiple fields.
+Input fields: These include text fields, password fields, checkboxes, radio buttons, sliders and any other fields designed for user input.
+Field labels: These tell users what the corresponding input fields mean.
+Action button: When the user presses this button, an action is performed (such as submission of the data).
+Feedback: The user is made to understand the result of their input through feedback. Most apps and websites use plain text as a form of feedback. A message will notify the user about the result and can be positive (indicating that the form was submitted successfully) or negative (“The number you’ve provided is incorrect”).
