@@ -24,11 +24,14 @@ a {
 }
  nav {
    display: flex;
-   justify-content: right;
+   justify-content: space-around;
    text-align: right;
     text-decoration: none;
     text-decoration-color: blue;
-    margin: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-left: 30px;
+    padding-right: 30px;
 
  }
  .hero img{
