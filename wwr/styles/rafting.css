@@ -23,15 +23,15 @@ a {
 
 }
  nav {
-   display: flex;
-   justify-content: space-around;
-   text-align: right;
-    text-decoration: none;
-    text-decoration-color: blue;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    padding-left: 30px;
-    padding-right: 30px;
+  display: flex;
+  justify-content: space-around;
+  text-align: right;
+  text-decoration: none;
+  text-decoration-color: blue;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-left: 30px;
+  padding-right: 30px;
 
  }
  .hero img{
@@ -49,7 +49,7 @@ a {
  }
 
  header {
-   margin: trem auto;
+   margin: auto;
    display: grid;
    grid-template-columns: 120px, 1fr, 2fr;
    align-items: center;
@@ -61,5 +61,27 @@ a {
  figure {
   display: flex;
   justify-content: space-around;
+  justify-content: end;
+ }
+
+
+ .logo {
+  max-block-size: 80px;
 
  }
+
+
+ a {
+display: flex;
+align-items: stretch;
+
+}
+
+figure {
+display: grid;
+justify-content: space-around;
+justify-content: center;
+  max-width: 500px;
+  max-height: 500px;
+
+}
