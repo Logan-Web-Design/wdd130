@@ -1,21 +1,23 @@
 /* CSS for About page */
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 :root{
-    --primary-color: #58, 71, 152;
-    --secondary-color: #131, 133, 163;
-    --accent1-color: #107, 109, 126;
-    --accent2-color: #28, 31, 98;
+  --primary-color: #d4d4d4;
+  --secondary-color: #131;
+  --accent1-color: #107;
+  --accent2-color: #E55b13;
 
-    --heading-font: 'Rock Salt', cursive; 
-    --paragraph-font: 'Rock Salt', cursive;
-    --heading-font-color: red; 
-    --paragraph-font-color: purple;
+  --heading-font: 'Rock Salt', cursive; 
+  --paragraph-font: 'Rock Salt', cursive;
 
-
-    --nav-background-color: var(--accent2-color);
-    --nav-link-color: blue;
-    --nav-hover-link-color: green;
-    --nav-hover-background-color:var(--secondary-color);
+  --nav-background-color: #131;
+  --nav-link-color: #107;
+  --nav-hover-link-color: #E55B13;
+  --nav-hover-background-color: black; 
+  
+}
+body {
+  max-width: 1600px;
+  background-color: var(--primary-color);
 }
 a {
   text-decoration: none;
@@ -32,15 +34,45 @@ a {
   margin-right: 4rem;
   padding-left: 30px;
   padding-right: 30px;
+  
 
  }
- .hero img{
-    display: block;
-    width: 100%;
-    height: auto; 
-    position: relative;
+ nav a {
+  font-family: var(--paragraph-font);
+   
  }
+ nav a:hover {
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  border: black solid 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+ }
+ .hero article img{
+    
+    width: 200px;
+    float: right;
+ }
+.hero img {
 
+  width: 100%;
+  height:auto;
+}
+.hero {
+  position: relative;
+
+}
+.hero article {
+  position: absolute;
+  top: 8rem;
+  padding: 1rem;
+  max-width: 80%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+}
 
 
  article img {
@@ -54,28 +86,23 @@ a {
    grid-template-columns: 120px, 1fr, 2fr;
    align-items: center;
    border-bottom: 1px solid black;
-   max-width: 1000px;
+   width: 100%;
+   background-color: var(--secondary-color);
+   height: 120px;
+
 
  }
 
- figure {
-  display: flex;
-  justify-content: space-around;
-  justify-content: end;
- }
-
-
- .logo {
-  max-block-size: 80px;
+ header img {
+width: 100px;
+border-radius: 30px;
+margin-left: 10px;
+margin-top: 20px;
+border: black solid 4px;
+margin-bottom: -20px;
 
  }
 
-
- a {
-display: flex;
-align-items: stretch;
-
-}
 
 figure {
 display: grid;
@@ -83,5 +110,31 @@ justify-content: space-around;
 justify-content: center;
   max-width: 500px;
   max-height: 500px;
+
+}
+
+.social-links {
+
+display: flex;
+max-width: 40px;
+
+}
+
+footer{
+  display: grid;
+  grid-template-columns: auto 160px;
+  align-items: center;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: blue;
+
+}
+footer div {
+  text-align: right;
+
+}
+footer img{
+  width: 30px;
+  margin-right: 20px
 
 }

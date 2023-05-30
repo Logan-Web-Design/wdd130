@@ -2,18 +2,18 @@
 /* Font style for webpage */
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 :root{
-    --primary-color: #58, 71, 152;
-    --secondary-color: #131, 133, 163;
-    --accent1-color: #107, 109, 126;
-    --accent2-color: #28, 31, 98;
+    --primary-color: #d4d4d4;
+    --secondary-color: #131;
+    --accent1-color: #107;
+    --accent2-color: #E55b13;
 
     --heading-font: 'Rock Salt', cursive; 
     --paragraph-font: 'Rock Salt', cursive;
 
-    --nav-background-color: var(--accent2-color);
-    --nav-link-color: blue;
-    --nav-hover-link-color: green;
-    --nav-hover-background-color:var(--secondary-color);
+    --nav-background-color: #131;
+    --nav-link-color: #107;
+    --nav-hover-link-color: #E55B13;
+    --nav-hover-background-color: black; 
 }
 
 body {
