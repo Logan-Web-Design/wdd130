@@ -1,19 +1,18 @@
 /* CSS for About page */
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 :root{
-  --primary-color: #d4d4d4;
-  --secondary-color: #131;
-  --accent1-color: #107;
-  --accent2-color: #E55b13;
+    --primary-color: #A7A9B9;
+    --secondary-color: #6B6D7E;
+    --accent1-color: #373E7C;
+    --accent2-color: #1C1F62;
 
-  --heading-font: 'Rock Salt', cursive; 
-  --paragraph-font: 'Rock Salt', cursive;
+    --heading-font: 'Rock Salt', cursive; 
+    --paragraph-font: 'Rock Salt', cursive;
 
-  --nav-background-color: #131;
-  --nav-link-color: #107;
-  --nav-hover-link-color: #E55B13;
-  --nav-hover-background-color: black; 
-  
+    --nav-background-color: #1E203F;
+    --nav-link-color: #107;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: black; 
 }
 body {
   max-width: 1600px;
@@ -49,15 +48,33 @@ a {
   padding-left: 4px;
   padding-right: 4px;
  }
+
+ .hero h1 {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: var(--accent1-color);
+  padding: 1rem;
+  font-family: var(--paragraph-font);
+  opacity: .7;
+  color: white;
+
+
+ }
  .hero article img{
     
     width: 200px;
     float: right;
+    border: #1E203F solid 1px;
+    opacity: 1;
  }
 .hero img {
 
   width: 100%;
   height:auto;
+  
 }
 .hero {
   position: relative;
@@ -65,13 +82,18 @@ a {
 }
 .hero article {
   position: absolute;
-  top: 8rem;
+  top: 10rem;
   padding: 1rem;
   max-width: 80%;
   left: 0;
   right: 0;
   margin: 0 auto;
-
+  font-family: var(--paragraph-font);
+  font-size: medium;
+  color: black;
+  border: #107 solid 2px;
+  background-color: #6B6D7E;
+  opacity: .8;
 }
 
 
@@ -103,16 +125,6 @@ margin-bottom: -20px;
 
  }
 
-
-figure {
-display: grid;
-justify-content: space-around;
-justify-content: center;
-  max-width: 500px;
-  max-height: 500px;
-
-}
-
 .social-links {
 
 display: flex;
@@ -120,6 +132,52 @@ max-width: 40px;
 
 }
 
+.history {
+  padding: 2rem;
+  background-color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  gap: 1rem;
+}
+.history h2 {
+  text-align: center;
+  grid-column: 1/4;
+  font-family: var(--paragraph-font);
+}
+.history p {
+  font-family: var(--paragraph-font);
+}
+.history img{
+  width: 300px;
+  height: auto;
+} 
+
+.adventure {
+  text-align: center;
+  padding: 2rem 0;
+}
+.adventure figure {
+  border: thin var(--accent2-color) solid;
+  padding: 5px;
+  max-height: 200px;
+  margin: auto;
+  background-color: #373E7C;
+  
+}
+.adventure figure img {
+  max-height: 100px;
+
+}
+.adventure figcaption {
+  font-family: var(--paragraph-font);
+}
+.adventure div {
+  display: flex;
+  flex-flow: row;
+}
+.adventure h2 {
+  font-family: var(--paragraph-font);
+}
 footer{
   display: grid;
   grid-template-columns: auto 160px;
