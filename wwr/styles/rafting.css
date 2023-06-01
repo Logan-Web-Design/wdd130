@@ -28,6 +28,9 @@ header {
 
 
 }
+header h1 {
+  font-style: var(--paragraph-font);
+}
 
 header img {
 width: 100px;
@@ -215,8 +218,46 @@ max-width: 40px;
   flex-flow: row;
 }
 
+/* Trips css */
+.trips {
+  text-align: center;
+  padding: 2rem 0;
+}
+.trips figure {
+  border: thin var(--accent2-color) solid;
+  padding: 5px;
+  max-height: 200px;
+  margin: auto;
+  background-color: #373E7C;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.trips figure img {
+  max-height: 100px;
 
+}
+.trips figcaption {
+  font-family: var(--paragraph-font);
+}
+.trips div {
+  display: flex;
+  flex-flow: row;
+}
+.trips h2 {
+  font-family: var(--paragraph-font);
+}
+table {
+  font-style: var(--paragraph-font);
+}
+/* home page styles */
 
+.home img {
+position: relative;
+  align-items: center;
+  margin: auto;
+  width: 10%;
+  height: 10%;
+}
 
 
 
